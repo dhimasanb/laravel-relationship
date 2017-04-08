@@ -26,4 +26,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function preference()
+    {
+        return $this->hasOne('App\Preference');
+    }
 }
