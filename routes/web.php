@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/studios', function () {
+    return view('studio');
+});
+
+/* DB::listen(function ($sql) {
+    var_dump($sql);
+}); */
