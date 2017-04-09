@@ -3,7 +3,8 @@
 <title>Studio</title>
 </head>
 <body>
-  @foreach (App\Studio::all() as $studio)
+  {{-- @foreach (App\Studio::all() as $studio) --}}
+  @foreach (App\Studio::with('movies')->get() as $studio)
     <h1>{{ $studio->name }}</h1>
     <ul>
   @forelse ($studio->movies as $movie)
