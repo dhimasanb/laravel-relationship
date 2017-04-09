@@ -15,7 +15,7 @@ class CreatePreferencesTable extends Migration
     {
         Schema::create('preferences', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->unsigned();
+            $table->integer('account_id')->unsigned();
             $table->string('country')->default('ID');
             $table->string('currency')->default('IDR');
             $table->boolean('subscribe_mailing_list')->default(true);
