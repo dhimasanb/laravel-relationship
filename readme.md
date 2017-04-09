@@ -29,6 +29,12 @@ Photo.
 Terkadang kita membutuhkan sebuah model berelasi ke dirinya sendiri. Contohya relasi antara
 orang tua dan anak. Keduanya merupakan model Person (orang).
 
+### Many To Many Polymorphic Relations = relasi ke diri model sendiri
+Relasi ini akan sangat berguna ketika kita ingin menggunakan relasi many-to-many tapi dengan
+model relasi yang berubah. Contoh klasik penggunaan relasi ini adalah untuk fitur Tag di blog.
+Pada sebuah blog, selain pada Article, kita juga dapat menambahkan Tag pada jenis konten lain,
+misalnya Video.
+
 ## Terima Kasih
 
 * [Rahmat Awaludin](https://github.com/rawaludin/)
