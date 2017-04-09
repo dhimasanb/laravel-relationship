@@ -29,6 +29,6 @@ class User extends Authenticatable
 
     public function preference()
     {
-        return $this->hasOne('App\Preference');
+        return $this->hasOne('App\Preference', 'account_id');
     }
 }
