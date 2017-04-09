@@ -25,6 +25,10 @@ model ke beberapa model lain dalam satu relasi. Contoh penggunaannya, dalam medi
 Facebook terdapat Status, Photo dan Comment. Comment ini dapat diberikan untuk Status maupun
 Photo.
 
+### Self Referencing Relationship = relasi ke diri model sendiri
+Terkadang kita membutuhkan sebuah model berelasi ke dirinya sendiri. Contohya relasi antara
+orang tua dan anak. Keduanya merupakan model Person (orang).
+
 ## Terima Kasih
 
 * [Rahmat Awaludin](https://github.com/rawaludin/)
