@@ -39,6 +39,11 @@ misalnya Video.
 Pada contoh relasi one-to-one, Eloquent akan menganggap pada model User akan menggunakan primary key bernama id dan pada model
 Preference akan terdapat field user_id.
 
+- #### Eager Loading
+Fitur eager loading akan sangat bermanfaat ketika kita bekerja dengan relasi di model. Menggunakan
+fitur ini dengan tepat akan membuat aplikasi yang kita bangun lebih efisien.
+
+
 ## Terima Kasih
 
 * [Rahmat Awaludin](https://github.com/rawaludin/)
