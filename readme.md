@@ -19,6 +19,12 @@ mungkin diikuti oleh banyak Student.
 Terkadang ada sebuah kondisi dimana kita merelasikan 3 model. Misalnya, model Artist akan
 memiliki banyak Album dan model Album akan memiliki banyak Song. Disini, bisa dikatakan sebuah Artist dapat memiliki banyak (Has Many) Song melalui (Through) Album.
 
+### Polymorphic Relations = relasi banyak melalui perantara
+Jenis relasi ini sangat bermanfaat ketika hendak membuat beberapa relasi belongsTo dari sebuah
+model ke beberapa model lain dalam satu relasi. Contoh penggunaannya, dalam media sosial seperti
+Facebook terdapat Status, Photo dan Comment. Comment ini dapat diberikan untuk Status maupun
+Photo.
+
 ## Terima Kasih
 
 * [Rahmat Awaludin](https://github.com/rawaludin/)
